@@ -19,7 +19,7 @@ Technologies Used
 Installation
 
 ```bash
-git clone https://github.com/[your-username]/Big-Data-Environmental-Terms-Analysis
+git clone https://github.com/laurian19/Big-Data-Environmental-Terms-Analysis
 cd Big-Data-Environmental-Terms-Analysis
 ```
  
