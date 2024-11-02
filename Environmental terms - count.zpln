@@ -1,0 +1,571 @@
+﻿{
+  "paragraphs": [
+    {
+      "text": " // Sanity check to verify that Spark wants to run.\n spark.version",
+      "user": "anonymous",
+      "dateUpdated": "2024-06-23T22:46:51+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mres81\u001b[0m: \u001b[1m\u001b[32mString\u001b[0m = 3.1.1\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1719172191999_921718063",
+      "id": "paragraph_1719172191999_921718063",
+      "dateCreated": "2024-06-23T19:49:52+0000",
+      "dateStarted": "2024-06-23T22:46:51+0000",
+      "dateFinished": "2024-06-23T22:46:51+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:2672"
+    },
+    {
+      "text": "%sh\n[ ! -f env1.warc.gz ] && wget -r -l 3 \"https://www.nationalgrid.com/stories/energy-explained/what-are-greenhouse-gases\" --delete-after --no-directories --warc-file=\"env1\" || echo Most likely, env1.warc.gz already exists",
+      "user": "anonymous",
+      "dateUpdated": "2024-06-23T22:46:51+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Most likely, env1.warc.gz already exists\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1719172223388_1644986113",
+      "id": "paragraph_1719172223388_1644986113",
+      "dateCreated": "2024-06-23T19:50:23+0000",
+      "dateStarted": "2024-06-23T22:46:51+0000",
+      "dateFinished": "2024-06-23T22:46:51+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2673"
+    },
+    {
+      "text": "%sh\n[ ! -f env2.warc.gz ] && wget -r -l 3 \"https://www.un.org/en/climatechange/what-is-climate-change\" --delete-after --no-directories --warc-file=\"env2\" || echo Most likely, env2.warc.gz already exists",
+      "user": "anonymous",
+      "dateUpdated": "2024-06-23T22:46:51+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Most likely, env2.warc.gz already exists\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1719172300158_1769257096",
+      "id": "paragraph_1719172300158_1769257096",
+      "dateCreated": "2024-06-23T19:51:40+0000",
+      "dateStarted": "2024-06-23T22:46:51+0000",
+      "dateFinished": "2024-06-23T22:46:51+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2674"
+    },
+    {
+      "text": "%sh\n[ ! -f env3.warc.gz ] && wget -r -l 3 \"https://www.wwf.org.uk/climate-change-and-global-warming\" --delete-after --no-directories --warc-file=\"env3\" || echo Most likely, env3.warc.gz already exists",
+      "user": "anonymous",
+      "dateUpdated": "2024-06-23T22:46:51+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Most likely, env3.warc.gz already exists\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1719172453856_745085100",
+      "id": "paragraph_1719172453856_745085100",
+      "dateCreated": "2024-06-23T19:54:13+0000",
+      "dateStarted": "2024-06-23T22:46:51+0000",
+      "dateFinished": "2024-06-23T22:46:51+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2675"
+    },
+    {
+      "text": "%sh\nls\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-06-23T22:46:51+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "build.sbt\nenv1.warc.gz\nenv2.warc.gz\nenv3.warc.gz\nlib\nproject\nrubigdata-test.txt\nsrc\nstream.py\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1719172419231_1137623067",
+      "id": "paragraph_1719172419231_1137623067",
+      "dateCreated": "2024-06-23T19:53:39+0000",
+      "dateStarted": "2024-06-23T22:46:51+0000",
+      "dateFinished": "2024-06-23T22:46:51+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2676"
+    },
+    {
+      "text": "val warcFiles = Array(\n  \"file:///opt/hadoop/rubigdata/env1.warc.gz\",\n  \"file:///opt/hadoop/rubigdata/env2.warc.gz\",\n  \"file:///opt/hadoop/rubigdata/env3.warc.gz\"\n).mkString(\",\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-06-23T22:47:10+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mwarcFiles\u001b[0m: \u001b[1m\u001b[32mString\u001b[0m = file:///opt/hadoop/rubigdata/env1.warc.gz\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1719172447022_721864649",
+      "id": "paragraph_1719172447022_721864649",
+      "dateCreated": "2024-06-23T19:54:07+0000",
+      "dateStarted": "2024-06-23T22:46:51+0000",
+      "dateFinished": "2024-06-23T22:46:51+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2677"
+    },
+    {
+      "text": "// Class definitions we need in the remainder:\nimport org.apache.hadoop.io.NullWritable\nimport de.l3s.concatgz.io.warc.{WarcGzInputFormat,WarcWritable}\nimport de.l3s.concatgz.data.WarcRecord\n\n// Overrule default settings\nimport org.apache.spark.SparkConf\nimport org.apache.spark.sql.SparkSession\nimport org.jsoup.Jsoup\n\nval sparkConf = new SparkConf()\n                      .setAppName(\"RUBigData WARC4Spark 2021\")\n                      .set(\"spark.serializer\", \"org.apache.spark.serializer.KryoSerializer\")\n                      .registerKryoClasses(Array(classOf[WarcRecord]))\n//                      .set(\"spark.dynamicAllocation.enabled\", \"true\")\nimplicit val sparkSession = SparkSession.builder().config(sparkConf).getOrCreate()\nval sc = sparkSession.sparkContext\n\nval warcs = sc.newAPIHadoopFile(\n              warcFiles,\n              classOf[WarcGzInputFormat],             // InputFormat\n              classOf[NullWritable],                  // Key\n              classOf[WarcWritable]                   // Value\n    )",
+      "user": "anonymous",
+      "dateUpdated": "2024-06-23T22:46:51+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "import org.apache.hadoop.io.NullWritable\nimport de.l3s.concatgz.io.warc.{WarcGzInputFormat, WarcWritable}\nimport de.l3s.concatgz.data.WarcRecord\nimport org.apache.spark.SparkConf\nimport org.apache.spark.sql.SparkSession\nimport org.jsoup.Jsoup\n\u001b[1m\u001b[34msparkConf\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.SparkConf\u001b[0m = org.apache.spark.SparkConf@b37793f\n\u001b[1m\u001b[34msparkSession\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.SparkSession\u001b[0m = org.apache.spark.sql.SparkSession@2efecefc\n\u001b[1m\u001b[34msc\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.SparkContext\u001b[0m = org.apache.spark.SparkContext@16ba987\n\u001b[1m\u001b[34mwarcs\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.rdd.RDD[(org.apache.hadoop.io.NullWritable, de.l3s.concatgz.io.warc.WarcWritable)]\u001b[0m = file:///opt/hadoop/rubigdata/env1.warc.gz NewHadoopRDD[193] at newAPIHadoopFile at <console>:232\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1719172657143_1108849788",
+      "id": "paragraph_1719172657143_1108849788",
+      "dateCreated": "2024-06-23T19:57:37+0000",
+      "dateStarted": "2024-06-23T22:46:51+0000",
+      "dateFinished": "2024-06-23T22:46:52+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2678"
+    },
+    {
+      "text": "val environmentalImpactAnalysis = warcs.map { case (_, warcRecord) => warcRecord.getRecord() }\n      .filter(record => record.getHeader.getUrl != null && record.getHttpStringBody != null)\n      .map { record =>\n        val document = Jsoup.parse(record.getHttpStringBody)\n        val lang = document.select(\"html\").attr(\"lang\")\n        val bodyText = document.select(\"body\").text()\n        val totalWordCount = bodyText.split(\"\\\\s+\").length\n        val environmentalKeywordsPattern = \"\\\\b(([Cc]limate [Cc]hange)|([Gg]lobal [Ww]arming)|([Pp]ollution)|([Rr]enewable [Ee]nergy)|([Ss]ustainability)|([Rr]ecycling)|([Cc]limate [Aa]ction)|([Ee]co-friendly)|([Cc]arbon [Ee]missions)|([Gg]reenhouse [Gg]ases)|([Ss]olar [Pp]ower)|([Ww]ind [Pp]ower)|([Ff]ossil [Pp]ower))\\\\b\".r\n        val keywordMatchCount = environmentalKeywordsPattern.findAllIn(bodyText).size\n        val relevanceRatio = if (totalWordCount > 0) keywordMatchCount.toDouble / totalWordCount else 0.0\n        (record.getHeader.getUrl, keywordMatchCount, relevanceRatio)\n      }\n      .filter(_._3 > 0)",
+      "user": "anonymous",
+      "dateUpdated": "2024-06-23T23:10:10+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34menvironmentalImpactAnalysis\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.rdd.RDD[(String, Int, Double)]\u001b[0m = MapPartitionsRDD[197] at filter at <console>:231\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1719172737523_2060935767",
+      "id": "paragraph_1719172737523_2060935767",
+      "dateCreated": "2024-06-23T19:58:57+0000",
+      "dateStarted": "2024-06-23T22:46:52+0000",
+      "dateFinished": "2024-06-23T22:46:52+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2680"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1719172766402_1724809159",
+      "id": "paragraph_1719172766402_1724809159",
+      "dateCreated": "2024-06-23T19:59:26+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2681",
+      "text": "%spark\nval df = environmentalImpactAnalysis.toDF(\"url\", \"pattern_count\", \"standardized_wordcount\")\n    df.createOrReplaceTempView(\"df\")",
+      "dateUpdated": "2024-06-23T22:46:52+0000",
+      "dateFinished": "2024-06-23T22:46:52+0000",
+      "dateStarted": "2024-06-23T22:46:52+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mdf\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m = [url: string, pattern_count: int ... 1 more field]\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%spark\ndf.printSchema()",
+      "user": "anonymous",
+      "dateUpdated": "2024-06-23T22:46:52+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1719174193427_512039832",
+      "id": "paragraph_1719174193427_512039832",
+      "dateCreated": "2024-06-23T20:23:13+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:4311",
+      "dateFinished": "2024-06-23T22:46:52+0000",
+      "dateStarted": "2024-06-23T22:46:52+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "root\n |-- url: string (nullable = true)\n |-- pattern_count: integer (nullable = false)\n |-- standardized_wordcount: double (nullable = false)\n\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%spark\nval results = spark.sql(\"SELECT url, pattern_count, standardized_wordcount FROM df ORDER BY pattern_count DESC LIMIT 5\").collect()",
+      "user": "anonymous",
+      "dateUpdated": "2024-06-23T22:46:52+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://f0abdae5d0fe:4040/jobs/job?id=19",
+              "$$hashKey": "object:9250"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1719173855232_1363775369",
+      "id": "paragraph_1719173855232_1363775369",
+      "dateCreated": "2024-06-23T20:17:35+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:4035",
+      "dateFinished": "2024-06-23T22:46:54+0000",
+      "dateStarted": "2024-06-23T22:46:52+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mresults\u001b[0m: \u001b[1m\u001b[32mArray[org.apache.spark.sql.Row]\u001b[0m = Array([<https://www.nationalgrid.com/stories/journey-to-net-zero-stories/6-myths-about-climate-change-busted>,44,0.02511415525114155], [<https://www.nationalgrid.com/stories/energy-explained/what-are-greenhouse-gases>,23,0.022179363548698167], [<https://www.nationalgrid.com/stories/energy-explained/what-is-net-zero>,17,0.016221374045801526], [<https://www.nationalgrid.com/national-grid-ventures/who-we-are/education-hub>,17,0.01606805293005671], [<https://www.nationalgrid.com/stories/energy-explained/how-does-solar-power-work>,15,0.012520868113522538])\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "println(\"\\n########## RESULTS ##########\")\n    println(\"Top 5 webpages in Warc-files mentioning environmental related terms (standardized by total word count):\")\n    results.foreach(println)\n    println(\"########### END RESULTS ############\\n\")\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-06-23T22:46:54+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1719174048677_2021660043",
+      "id": "paragraph_1719174048677_2021660043",
+      "dateCreated": "2024-06-23T20:20:48+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:4177",
+      "dateFinished": "2024-06-23T22:46:54+0000",
+      "dateStarted": "2024-06-23T22:46:54+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n########## RESULTS ##########\nTop 5 webpages in Warc-files mentioning environmental related terms (standardized by total word count):\n[<https://www.nationalgrid.com/stories/journey-to-net-zero-stories/6-myths-about-climate-change-busted>,44,0.02511415525114155]\n[<https://www.nationalgrid.com/stories/energy-explained/what-are-greenhouse-gases>,23,0.022179363548698167]\n[<https://www.nationalgrid.com/stories/energy-explained/what-is-net-zero>,17,0.016221374045801526]\n[<https://www.nationalgrid.com/national-grid-ventures/who-we-are/education-hub>,17,0.01606805293005671]\n[<https://www.nationalgrid.com/stories/energy-explained/how-does-solar-power-work>,15,0.012520868113522538]\n########### END RESULTS ############\n\n"
+          }
+        ]
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1719174245514_400424491",
+      "id": "paragraph_1719174245514_400424491",
+      "dateCreated": "2024-06-23T20:24:05+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:4440",
+      "dateUpdated": "2024-06-23T22:46:54+0000"
+    }
+  ],
+  "name": "Environmental terms - count",
+  "id": "2K3RYN8P8",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.9.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {},
+  "path": "/Environmental terms - count"
+}
