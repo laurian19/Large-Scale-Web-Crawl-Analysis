@@ -22,7 +22,11 @@ Installation
 git clone https://github.com/laurian19/Big-Data-Environmental-Terms-Analysis
 cd Big-Data-Environmental-Terms-Analysis
 ```
- 
+
+Usage
+
+Please see the Zeppelin Notebook for detailed steps on running the analysis, located within the repository. Follow the instructions within the notebook to perform the analysis.
+
 Authors:
 
     Laurian Duma - Initial work - Radboud University
